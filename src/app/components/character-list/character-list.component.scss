@@ -1,0 +1,17 @@
+.character-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .character-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .character-list img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  

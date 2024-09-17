@@ -1,0 +1,17 @@
+<nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="/" class="text-white text-lg font-bold">Rick & Morty</a>
+      <div class="flex items-center space-x-4">
+        <a href="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+        <a href="/characters" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Characters</a>
+        <input
+          type="text"
+          placeholder="Search characters..."
+          class="p-2 rounded-md border border-gray-300"
+          [(ngModel)]="searchTerm"
+          (ngModelChange)="onSearchChange($event)"
+        />
+      </div>
+    </div>
+  </nav>
+  

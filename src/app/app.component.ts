@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-rick-morty';
+  searchTerm: string = '';
+
+  // onSearchTermChanged(term: string): void {
+  //   this.searchTerm = term;
+  // }
 }
